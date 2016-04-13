@@ -1,0 +1,8 @@
+nginx-json-check:
+  image: akosratku/nginx-health
+  ports:
+    - "80"
+nginx-html-check:
+  image: akosratku/nginx-health
+  ports:
+    - "80"
